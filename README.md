@@ -1,8 +1,8 @@
-# on_off_and_slip_feature
+# on_off_slip_feature_v2
 1. Open command prompt(windows) or terminal (Linux/Mac) and navigate to the desired root directory. <br>
 2. Clone the repository - <br>
 git clone https://github.com/sid23v/on_off_slip_feature_v2.git <br>
-cd on_of_and_slip_ftr <br>
+cd on_off_slip_feature_v2 <br>
 3. Create a virtual environment <br>
 python - m venv my_venv <br>
 4. Activate the virtual environment <br>
