@@ -2,7 +2,7 @@
 1. Open command prompt(windows) or terminal (Linux/Mac) and navigate to the desired root directory. <br>
 2. Clone the repository - <br>
 git clone https://github.com/sid23v/on_off_slip_feature_v2.git <br>
-cd yolo_test_app <br>
+cd on_of_and_slip_ftr <br>
 3. Create a virtual environment <br>
 python - m venv my_venv <br>
 4. Activate the virtual environment <br>
