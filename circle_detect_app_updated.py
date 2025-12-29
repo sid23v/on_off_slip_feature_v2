@@ -4,7 +4,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-camera_index = 0
+camera_index = 1
 cap = cv2.VideoCapture(camera_index, cv2.CAP_DSHOW)
 
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 960)
@@ -130,3 +130,4 @@ def video_feed():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=False)
+
