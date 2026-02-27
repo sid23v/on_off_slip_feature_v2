@@ -5,7 +5,7 @@ FRAME_WIDTH = 960
 FRAME_HEIGHT = 720
 
 MARKER_SIZE = 12
-DISTANCE_THRESHOLD = 100
+DISTANCE_THRESHOLD = 150
 
 overlay_counter = 0
 OVERLAY_FRAMES = 20  
@@ -35,7 +35,7 @@ LOW_ENTROPY_FRAMES = 4
 low_entropy_counter = 0
 
 # Vertical lift
-SCALE_MIN = 0.95
+SCALE_MIN = 0.93
 SCALE_MAX = 1.75
 
 last_scale_est = 1.0   # AXIAL DISPLAY
@@ -566,3 +566,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
