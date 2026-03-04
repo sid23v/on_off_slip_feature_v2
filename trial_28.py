@@ -35,7 +35,7 @@ LOW_ENTROPY_FRAMES = 4
 low_entropy_counter = 0
 
 # Vertical lift
-SCALE_MIN = 0.85
+SCALE_MIN = 0.80
 SCALE_MAX = 1.75
 
 BAR_HEIGHT = 300
@@ -584,3 +584,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
